@@ -11,7 +11,7 @@ path = ""
 if platform == "darwin":
     path = '/Applications/chromedriver'
 elif platform == "win32":
-    path = "C:\Windows\chromedriver.exe"
+    path = "C:/Users/tsvetan.donov/Documents/chromedriver.exe"
 
 driver = webdriver.Chrome(executable_path=path)
 driver.get(URL)
